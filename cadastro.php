@@ -2,8 +2,8 @@
 
 include("../Senai-Livre/config/cabecalho.php");
 ?>
-
-<div class="container">
+<div class="cad">
+<div class="signup">
     <h1>Registro de usuario</h1>
     <input type="checkbox" id="chk" aria-hidden="true">
     <form action="" method="post">
@@ -50,7 +50,7 @@ include("../Senai-Livre/config/cabecalho.php");
     include("../Senai-Livre/config/cabecalho.php")
 ?>
 
-<div class="container">
+<div class="login">
     <h1>Login do usuario</h1>
     <form action="" method="POST">
         <label for="login">Login</label>
@@ -92,7 +92,7 @@ include("../Senai-Livre/config/cabecalho.php");
 
 
 </div>
-
+</div>
 <?php
     include("../Senai-Livre/config/rodape.php");
 ?>
