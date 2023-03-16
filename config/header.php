@@ -18,31 +18,31 @@
         <div class="dropdown-child">
             <div class="locais">
                 <div class="loc">
-                    <img src="" alt="">
+                    <img src="assets/img/veiculo.png" alt="Carro">
                     <p>Veículos</p>
                 </div>
                 <div class="loc">
-                    <img src="" alt="">
+                    <img src="assets/img/tecnologia.png" alt="tech">
                     <p>Tecnologia</p>
                 </div>
                 <div class="loc">
-                    <img src="" alt="">
+                    <img src="assets/img/casaMoveis.png" alt="casa">
                     <p>Casa e móveis</p>
                 </div>
                 <div class="loc">
-                    <img src="" alt="">
+                    <img src="assets/img/eletroDomenticos.png" alt="eletro">
                     <p>Eletrodomésticos</p>
                 </div>
                 <div class="loc">
-                    <img src="" alt="">
+                    <img src="assets/img/esportes.png" alt="Esportes">
                     <p>Esportes e fitnes</p>
                 </div>
                 <div class="loc">
-                    <img src="" alt="">
+                    <img src="assets/img/ferramentas.png" alt="ferramentas">
                     <p>Ferramentas</p>
                 </div>
                 <div class="loc">
-                    <img src="" alt="">
+                    <img src="assets/img/construcao.png" alt="construct">
                     <p>Construção</p>
                 </div>
 

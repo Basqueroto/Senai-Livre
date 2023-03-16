@@ -58,7 +58,7 @@
     color: var(--cor-textos);
     border: none;
     cursor: pointer;
-    padding:20px;
+    padding:15px;
     width: 100%;
 }
 .mainmenubtn:hover {
@@ -74,15 +74,20 @@
     background-color: var(--cor-pricipal);
     min-width: 200px;
 }
-.dropdown-child a {
-    color: var(--cor-textos);
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
 /* ----------------------------------------------------------- */
 .dropdown:hover .dropdown-child {
     display: block;
+}
+
+.locais {
+    margin-left: 50px;
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.loc{
+    margin-top: 10px;
 }
 
 html {
