@@ -13,17 +13,40 @@
         <i class="fa-solid fa-bars"></i>
     </div>
     <hr>
-    <div class="second">
-        <nav>
-            <ul class="menu">
-                <li><a href="#">Onde vamos</a>
-                    <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">SEO</a></li>
-                        <li><a href="#">Design</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+    <div class="dropdown">
+  <button class="mainmenubtn">Onde vamos</button>
+        <div class="dropdown-child">
+            <div class="locais">
+                <div class="loc">
+                    <img src="" alt="">
+                    <p>Veículos</p>
+                </div>
+                <div class="loc">
+                    <img src="" alt="">
+                    <p>Tecnologia</p>
+                </div>
+                <div class="loc">
+                    <img src="" alt="">
+                    <p>Casa e móveis</p>
+                </div>
+                <div class="loc">
+                    <img src="" alt="">
+                    <p>Eletrodomésticos</p>
+                </div>
+                <div class="loc">
+                    <img src="" alt="">
+                    <p>Esportes e fitnes</p>
+                </div>
+                <div class="loc">
+                    <img src="" alt="">
+                    <p>Ferramentas</p>
+                </div>
+                <div class="loc">
+                    <img src="" alt="">
+                    <p>Construção</p>
+                </div>
+
+            </div>
+        </div>
     </div>
 </header>
