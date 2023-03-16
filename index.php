@@ -54,14 +54,15 @@
     </div>
 
     </div>
-
-    
-
 </section>
 
 <section id="con">
 
-    <h2>confira as várias ofertas do dia</h2>
+    <div id="context">
+        <h2>Confira as várias ofertas do dia</h2>
+    </div>
+
+    <div id="conimg">
 
     <div id="sexo">
 
@@ -96,13 +97,12 @@
 
     </div>
 
-   
-
+    </div>
 </section>
 
 <section>
 
-<h2>compre agora com as melhores promoções</h2>
+<h2>Compre agora com as melhores promoções</h2>
 
 <div id="marcos">
 
