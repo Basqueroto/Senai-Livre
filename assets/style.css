@@ -102,3 +102,115 @@ html {
     border-radius: 15px;
 }
 
+.oferta-dia{
+    background-color: #3682fd;
+    cursor: pointer;
+    width: 115px;
+    padding: 7px;
+    border: 1px;
+    border-radius: 15px;
+}
+
+.ofertas {
+    text-align: left;
+}
+
+.juros{
+    color: #4db68a;
+}
+
+.frete{
+    color: #2ca469;
+}
+
+.nome{
+    color: #383838;
+}
+
+#of #ofimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+}
+
+#sexo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#tr{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+#marcos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+}
+
+#stress{
+    text-align: center;
+}
+
+footer {
+    background-color: #fff159;
+    color:#333;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+footer p {
+    margin: 5px 0;
+    color: black;
+  }
+
+  .fa-regular.fa-copyright {
+    margin-right: 5px;
+    color: black;
+  }
+
+  .sub3 {
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .sub2 {
+    flex-basis: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+  }
+
+  .sub0 {
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  #sergio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #paumeras2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #paumeras{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
