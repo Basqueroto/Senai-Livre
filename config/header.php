@@ -1,6 +1,6 @@
-<header>
+<header id="header">
     <div class="first">
-    <figure><img src="../img/senai.png" alt="Logo senai Livre"></figure>
+    <figure><img src="senai.png" alt="Logo senai Livre"></figure>
         <div id="divBusca">
             <input type="text" id="txtBusca" placeholder="Buscar..."/>
         </div>
@@ -10,7 +10,8 @@
             <a href="">entrar</a>
             <a href="">criar uma conta</a>
         </nav>
-        
+        <i class="fa-solid fa-bars"></i>
+        <hr>
     </div>
     <div class="second">
         

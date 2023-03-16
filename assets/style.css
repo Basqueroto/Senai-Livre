@@ -1,0 +1,15 @@
+:root{
+    --cor-pricipal:#fff159;
+    --cor-ofertas: #3682fd;
+    --cor-valor:#2ca469;
+    --cor-valor-parc:#4d868a;
+    --cor-textos:#383838;
+}
+
+#header {
+    background-color: var(--cor-pricipal);
+}
+
+html {
+    scroll-behavior: smooth;
+}
