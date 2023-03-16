@@ -48,7 +48,8 @@
     font-size:18px;
     border:none;
     height:32px;
-    width:260px;
+    width:295px;
+    border-radius: 10px;
   }
 
 .dropdown {

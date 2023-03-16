@@ -17,7 +17,7 @@
         <p class="preco">R$670,00</p>
         <p class="juros">10x R$67,00 sem juros</p>
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
-        <p class="nome">fritadeira de ar</p>
+        <p class="nome">Fritadeira de ar</p>
     </div>
     <div id="tr">
         <img src="../Senai-Livre/assets/img/camera.png" alt="">
@@ -25,7 +25,7 @@
         <p class="preco">R$300,00</p>
         <p class="juros">10x R$30,00 sem juros</p>
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
-        <p class="nome">camera fotografica</p>
+        <p class="nome">Camera fotografica</p>
     </div>
     <div id="tr">
         <img src="../Senai-Livre/assets/img/laptop.png" alt="">
@@ -41,7 +41,7 @@
         <p class="preco">R$1600,00</p>
         <p class="juros">10x R$160,00 sem juros</p>
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
-        <p class="nome">cadeira gaymer</p>
+        <p class="nome">Cadeira gaymer</p>
     </div>
     <div id="tr">
         <img src="../Senai-Livre/assets/img/meias.png" alt="">
@@ -49,7 +49,7 @@
         <p class="preco">R$70,00</p>
         <p class="juros">10x R$7,00 sem juros</p>
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
-        <p class="nome">meias</p>
+        <p class="nome">Meias</p>
 
     </div>
 
@@ -76,11 +76,11 @@
     </div>
     <div>
         <img src="../Senai-Livre/assets/img/descDomenticos.png" alt="">
-        <p>casa e decoreações</p>
+        <p>Casa e decoreações</p>
     </div>
     <div>
         <img src="../Senai-Livre/assets/img/descCelulares.png" alt="">
-        <p>smartphones</p>
+        <p>Smartphones</p>
     </div>
     <div>
         <img src="../Senai-Livre/assets/img/descBeleza.png" alt="">
