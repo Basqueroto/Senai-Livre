@@ -2,7 +2,7 @@
     <div class="first">
     <figure><img src="senai.png" alt="Logo senai Livre"></figure>
         <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <input type="text" id="txtBusca" placeholder="Pesquisa aqui"/>
         </div>
         <nav>
             <a href="">Vender</a>
@@ -14,7 +14,7 @@
     </div>
     <hr>
     <div class="dropdown">
-  <button class="mainmenubtn">Onde vamos</button>
+        <p>Para onde vamos</p>
         <div class="dropdown-child">
             <div class="locais">
                 <div class="loc">
