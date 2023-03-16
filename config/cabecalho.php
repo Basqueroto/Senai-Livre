@@ -8,6 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
-    <title>senai livre</title>
+    <title>Senai Livre</title>
 </head>
 <body>
