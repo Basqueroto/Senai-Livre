@@ -157,7 +157,10 @@ html {
 }
 
 #stress{
-    text-align: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
 }
 
 footer {
