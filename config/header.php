@@ -1,4 +1,4 @@
-<header id="header">
+<header class="header">
     <div class="first">
     <figure><img src="senai.png" alt="Logo senai Livre"></figure>
         <div id="divBusca">

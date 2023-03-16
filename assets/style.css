@@ -6,7 +6,13 @@
     --cor-textos:#383838;
 }
 
-#header {
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.header {
     background-color: var(--cor-pricipal);
 }
 
