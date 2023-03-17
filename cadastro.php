@@ -2,25 +2,20 @@
 
 include("../Senai-Livre/config/cabecalho.php");
 ?>
-<div class="cad">
-<div class="signup">
-    <h1>Registro de usuario</h1>
+<div id="cad">
+        <nav id="cad-nav">
+            <a href="index.php">Voltar</a>
+        </nav>
     <input type="checkbox" id="chk" aria-hidden="true">
-    <form action="" method="post">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="informe seu nome" required>
-
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="informe seu email" required>
-
-        <label for="cpf">Cpf</label>
-        <input type="text" name="cpf" id="cpf" placeholder="informe seu cpf" required>
-
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" id="senha" placeholder="informe seu senha" required>
-
-        <button type="submit">Enviar</button>
-    </form>
+    <div class="signup">
+        <form class="imp" method="POST">
+            <label for="chk" aria-hidden="true">Cadastre-se</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome" required="">
+            <input type="number" name="cpf" id="cpf" placeholder="CPF" required="">
+            <input type="email" name="email" id="email" placeholder="Email" required="">
+            <input type="password" name="senha" id="senha" placeholder="Senha" required="">
+            <button class="cads">Sign up</button>
+        </form>
     <?php
         include("../Senai-Livre/config/conexao.php");
         if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -46,24 +41,20 @@ include("../Senai-Livre/config/cabecalho.php");
             $conexao = null;
         }
     ?>
-<?php
-    include("../Senai-Livre/config/cabecalho.php")
-?>
+</div>
 
 <div class="login">
-    <h1>Login do usuario</h1>
-    <form action="" method="POST">
-        <label for="login">Login</label>
-        <input type="text" name="login" id="login" placeholder="informe seu login" required>
-
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" id="senha" placeholder="informe sua senha" required>
-
-        <button type="submit">Enviar</button>
-    </form>
+    <div class="menu">
+        <form class="imp" method="POST">
+            <label for="chk" aria-hidden="true">Login</label>
+            <input type="email" name="email" placeholder="Email" required="">
+            <input type="password" name="senha" placeholder="Senha" required="">
+            <button class="cads">Login</button>
+            </form>
+    </div>
     <?php
         //conectar com o banco de dados
-        include("../Senai-Livre/config/conexao.php");
+        include("config/conexao.php");
 
         //formulário foi enviado?
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -90,9 +81,5 @@ include("../Senai-Livre/config/cabecalho.php");
     ?>
 </div>
 
-
-</div>
-</div>
-<?php
-    include("../Senai-Livre/config/rodape.php");
-?>
+</body>
+</html>
