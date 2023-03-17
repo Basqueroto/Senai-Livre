@@ -22,8 +22,10 @@
                     <p>Veículos</p>
                 </div>
                 <div class="loc">
+                    <a href="../Senai-Livre/tecnologia.php">
                     <img src="assets/img/tecnologia.png" alt="tech">
                     <p>Tecnologia</p>
+                    </a>
                 </div>
                 <div class="loc">
                     <img src="assets/img/casaMoveis.png" alt="casa">
