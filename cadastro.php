@@ -71,7 +71,7 @@ include("../Senai-Livre/config/cabecalho.php");
             $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
             if($result){
-               header("Location: TelaListagem.php");
+               header("Location: config/TelaListagem.php");
             }
             else {
                 echo"<div class = 'error'>falha em logar o usuário</div>";

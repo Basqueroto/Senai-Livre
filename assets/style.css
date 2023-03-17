@@ -544,8 +544,3 @@ h1{
 #ofimg img, #marcos img{
   width: 100%;
 }
-
-/* --------------------------------produtos----------------------------- */
-#apagar *{
-  display: none;
-}
