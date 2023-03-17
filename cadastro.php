@@ -24,7 +24,7 @@ include("../Senai-Livre/config/cabecalho.php");
             $cpf = $_POST["cpf"];
             $senha = $_POST["senha"];
 
-            $sql ="INSERT INTO usuario(nome, email, cpf, senha) VALUES (:nome, :email, :cpf, :senha) ";
+            $sql ="INSERT INTO usuarios (nome, email, cpf, senha) VALUES (:nome, :email, :cpf, :senha) ";
             $stmt = $conexao->prepare($sql);
             $stmt->bindValue(":nome", $nome);
             $stmt->bindValue(":email", $email);
@@ -58,12 +58,13 @@ include("../Senai-Livre/config/cabecalho.php");
 
         //formulário foi enviado?
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
-            $login = $_POST["login"];
+            $email = $_POST["email"];
             $senha = $_POST["senha"];
 
-            $sql = "SELECT * FROM usuario WHERE login = :login and senha = :senha";
+            $sql = "SELECT * FROM usuarios   WHERE email = :email and senha = :senha";
             $stmt = $conexao->prepare($sql);
-            $stmt->bindValue(":login", $login);
+        
+            $stmt->bindValue(":email", $email);
             $stmt->bindValue(":senha", $senha);
             $stmt->execute();
 
@@ -74,9 +75,7 @@ include("../Senai-Livre/config/cabecalho.php");
             }
             else {
                 echo"<div class = 'error'>falha em logar o usuário</div>";
-            }
-        // fechar conexão
-        $conexao = null;
+            }$conexao = null;
         }
     ?>
 </div>
