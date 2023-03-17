@@ -47,12 +47,16 @@
                     </a>
                 </div>
                 <div class="loc">
+                    <a href="../Senai-Livre/ferramentas.php" target="_blank">
                     <img src="assets/img/ferramentas.png" alt="ferramentas">
                     <p>Ferramentas</p>
+                    </a>
                 </div>
                 <div class="loc">
+                    <a href="../Senai-Livre/construcao.php" target="_blank">
                     <img src="assets/img/construcao.png" alt="construct">
                     <p>Construção</p>
+                    </a>
                 </div>
 
             </div>
