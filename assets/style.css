@@ -530,3 +530,7 @@ h1{
 #razer{
   margin-top: 20px;
 }
+
+#ofimg img, #marcos img{
+  width: 100%;
+}
