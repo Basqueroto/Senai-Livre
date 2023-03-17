@@ -2,7 +2,9 @@
     include("config/cabecalho.php");
     include("config/header.php");
 ?> 
-
+<script>
+    var produto = 0;
+</script>    
 <main id="index">
 
 <h2>Ofertas do dia</h2>
@@ -10,7 +12,7 @@
 <section id="of" >
 
     <div id="ofimg">
-
+    <a href="produto.php" onclick="produto = 1">
     <div class="ofertas" id="tr">
         <img src="../Senai-Livre/assets/img/fritadeira.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
@@ -19,6 +21,8 @@
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
         <p class="nome">Fritadeira de ar</p>
     </div>
+    </a>
+    <a href="produto.php" onclick="produto = 2">
     <div id="tr">
         <img src="../Senai-Livre/assets/img/camera.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
@@ -27,6 +31,7 @@
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
         <p class="nome">Camera fotografica</p>
     </div>
+    </a>
     <div id="tr">
         <img src="../Senai-Livre/assets/img/laptop.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
@@ -155,6 +160,9 @@
 </div>
 
 <script src="https://kit.fontawesome.com/e230e60edc.js" crossorigin="anonymous"></script>
+<script>
+    export default produto;
+</script>    
 
 </main>
 

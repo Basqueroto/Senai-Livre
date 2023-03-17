@@ -17,6 +17,7 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
     transition: 1s;
+    outline: none;
 }
 
 .first {
@@ -38,22 +39,22 @@
 
 #divBusca{
     background-color:#ffffff;
-    border:solid 1px;
-    border-radius:10px;
-    width:300px;
+    border-radius:7px;
+    width:400px;
   }
   
   #txtBusca{
     float:left;
     background-color:transparent;
     padding-left:5px;
-    font-style:italic;
+    font-family: 'Roboto', sans-serif;
     font-size:18px;
     border:none;
     height:32px;
-    width:295px;
-    border-radius: 10px;
+    width:495px;
+    border-radius: 7px;
   }
+
 
 .dropdown {
     width: 100%;
@@ -63,11 +64,20 @@
     transition: height 0.5s;
 }
 
-.dropdown p{
+.dropdown label{
     color: var(--cor-textos);
     font-family: 'Roboto', sans-serif;
     padding: 15px;
 }
+
+.dropdown label:hover{
+    background-color: var(--cor-hover);
+}
+
+.dropdown input {
+  display: none;
+}
+
 .dropdown-child {
     background-color: var(--cor-pricipal);
     min-width: 200px;
@@ -533,4 +543,9 @@ h1{
 
 #ofimg img, #marcos img{
   width: 100%;
+}
+
+/* --------------------------------produtos----------------------------- */
+#apagar *{
+  display: none;
 }
