@@ -11,7 +11,7 @@ $email = $_POST['nome'];
 $cpf = $_POST['cpf'];
 
 if(isset($id) && isset($email) && isset($nome) && isset($cpf)){
-    $sql = "UPDATE usuario SET email = :email, nome = :nome, cpf = :cpf WHERE id = :id";
+    $sql = "UPDATE usuarios SET email = :email, nome = :nome, cpf = :cpf WHERE id = :id";
 
     $stmt = $connect->prepare($sql);
     $stmt->bindValue(":id", $id);

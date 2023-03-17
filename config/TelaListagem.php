@@ -1,11 +1,12 @@
 <?php
+include("cabecalho.php");
 include("conexao.php");
 
-$sql = "SELECT id, email, nome, cpf FROM usuario";
+$sql = "SELECT id, email, nome, cpf FROM usuarios";
 
-$result = $connect->query($sql);
+$result = $conexao->query($sql);
 
-if($result->rowCount () > 0){
+if($result->rowCount() > 0){
     echo "<table border=1>";
     echo" 
     <tr>

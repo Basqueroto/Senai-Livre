@@ -8,7 +8,7 @@ if(!isset($_GET['id'])){
 
 $id = $_GET['id'];
 
-$sql = "SELECT * FROM usuario WHERE id = :id";
+$sql = "SELECT * FROM usuarios WHERE id = :id";
 $stmt = $connect->prepare($sql);
 $stmt->bindValue(":id", $id);
 $stmt->execute();
