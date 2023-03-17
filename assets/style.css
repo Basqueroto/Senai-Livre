@@ -110,10 +110,10 @@ html {
 .oferta-dia{
     background-color: #3682fd;
     cursor: pointer;
-    width: 115px;
-    padding: 7px;
-    border: 1px;
+    width: 100px;
+    padding: 6px;
     border-radius: 15px;
+    color: white;
 }
 
 .ofertas {
