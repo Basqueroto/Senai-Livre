@@ -3,7 +3,7 @@
     include("config/header.php");
 ?> 
 
-<main>
+<main id="index">
 
 <h2>Ofertas do dia</h2>
 
