@@ -113,10 +113,10 @@ html {
 .oferta-dia{
     background-color: #3682fd;
     cursor: pointer;
-    width: 115px;
-    padding: 7px;
-    border: 1px;
+    width: 100px;
+    padding: 6px;
     border-radius: 15px;
+    color: white;
 }
 
 .ofertas {
@@ -468,19 +468,6 @@ padding: 0 5px;
   padding: 5px;
   border-radius: 3px;
   border: 1px solid #ccc;
-}
-
-#cad nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#cad a {
-  text-decoration: none;
-  color: var(--cor-pricipal);
-  margin-top: 10px;
-  margin-right: 30px;
-
 }
 
 button[type=submit] {
