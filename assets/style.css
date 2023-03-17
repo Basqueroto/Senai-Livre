@@ -8,6 +8,7 @@
     --color-offwhite: #fffed9;
     --color-black: #000000;
     --color-white: #FFFFFF;
+    --cor-fundo-produto: #EDEDED;
 }
 
 *{
@@ -543,4 +544,60 @@ h1{
 
 #ofimg img, #marcos img{
   width: 100%;
+}
+/* ------------------------produtos------------------- */
+
+.product {
+  background-color: var(--cor-fundo-produto);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  background-color: var(--color-white);
+  width: 95%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#img-fig img {
+  margin-top: 50px;
+  width: 500px;
+}
+
+.carac {
+  display: flex;
+  justify-content: right;;
+}
+
+.info-carac {
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 1px solid var(--cor-textos);
+  border-radius: 20px;
+  width: 300px;
+  height: 90%;
+  text-align: left;
+}
+
+#txt-info {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top:30px;
+}
+
+#p {
+  margin-left: 20px;
+}
+
+.product i {
+  width: 20px;
+}
+
+.mais {
+  margin-top: 20px;
 }
