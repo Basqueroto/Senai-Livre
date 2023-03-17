@@ -17,8 +17,10 @@
         <div class="dropdown-child">
             <div class="locais">
                 <div class="loc">
+                    <a href="../Senai-Livre/veiculos.php" target="_blank">
                     <img src="assets/img/veiculo.png" alt="Carro">
                     <p>Veículos</p>
+                    </a>
                 </div>
                 <div class="loc">
                     <a href="../Senai-Livre/tecnologia.php" target="_blank">
@@ -27,16 +29,22 @@
                     </a>
                 </div>
                 <div class="loc">
+                    <a href="../Senai-Livre/casa.php" target="_blank">
                     <img src="assets/img/casaMoveis.png" alt="casa">
                     <p>Casa e móveis</p>
+                    </a>
                 </div>
                 <div class="loc">
+                    <a href="../Senai-Livre/elec.php" target="_blank">
                     <img src="assets/img/eletroDomenticos.png" alt="eletro">
                     <p>Eletrodomésticos</p>
+                    </a>
                 </div>
                 <div class="loc">
+                    <a href="../Senai-Livre/esport.php" target="_blank">
                     <img src="assets/img/esportes.png" alt="Esportes">
                     <p>Esportes e fitnes</p>
+                    </a>
                 </div>
                 <div class="loc">
                     <img src="assets/img/ferramentas.png" alt="ferramentas">
