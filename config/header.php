@@ -2,7 +2,7 @@
     <div class="first">
     <figure><img src="senai.png" alt="Logo senai Livre"></figure>
         <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Pesquisa aqui"/>
+            <input type="text" id="txtBusca" placeholder="Pesquise aqui"/>
         </div>
         <nav>
             <a href="">Vender</a>
