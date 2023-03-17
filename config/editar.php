@@ -31,7 +31,7 @@ if(!$row){
         <label for="email">E-Mail</label>
         <input type="email" name="email" id="email" placeholder="Informe seu email" required value="<?php echo $row['email'] ?>">
 
-        <label for="Login">Cpf</label>
+        <label for="cpf">Cpf</label>
         <input type="text" name="cpf" id="cpf" placeholder="Informe seu cpf" required value="<?php echo $row['cpf'] ?>">
 
         <button type="submit">Atualizar</button>
