@@ -1,8 +1,9 @@
 <?php
+
 $host = "localhost";
 $usuario = "root";
 $senha = "";
-$banco = "mercadolivre";
+$banco = "aplication";
 $dsn = "mysql:host=$host;dbname=$banco;";
 
 try{

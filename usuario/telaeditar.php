@@ -1,6 +1,6 @@
 <?php
-include("header.php");
-include("conexao.php");
+include("../config/header.php");
+include("../conexao.php");
 
 if(!isset($_GET['id'])){
     die("ID usuario invalido");
@@ -8,8 +8,8 @@ if(!isset($_GET['id'])){
 
 $id = $_GET['id'];
 
-$sql = "SELECT * FROM usuarios WHERE id = :id";
-$stmt = $connect->prepare($sql);
+$sql = "SELECT * FROM usuario WHERE id = :id";
+$stmt = $conexao->prepare($sql);
 $stmt->bindValue(":id", $id);
 $stmt->execute();
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -40,5 +40,5 @@ if(!$row){
 </div>
 
 <?php
-include("rodape.php")
+include("../config/footer.php")
 ?>

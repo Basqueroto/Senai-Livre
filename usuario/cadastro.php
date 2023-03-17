@@ -1,6 +1,5 @@
 <?php
-
-include("../Senai-Livre/config/cabecalho.php");
+include("../config/header.php");
 ?>
 <div id="cad">
         <nav id="cad-nav">
@@ -17,14 +16,14 @@ include("../Senai-Livre/config/cabecalho.php");
             <button class="cads">Sign up</button>
         </form>
     <?php
-        include("../Senai-Livre/config/conexao.php");
+        include("../conexao.php");
         if($_SERVER["REQUEST_METHOD"] == "POST"){
             $nome = $_POST["nome"];
             $email = $_POST["email"];
             $cpf = $_POST["cpf"];
             $senha = $_POST["senha"];
 
-            $sql ="INSERT INTO usuarios (nome, email, cpf, senha) VALUES (:nome, :email, :cpf, :senha) ";
+            $sql ="INSERT INTO usuario (nome, email, cpf, senha) VALUES (:nome, :email, :cpf, :senha) ";
             $stmt = $conexao->prepare($sql);
             $stmt->bindValue(":nome", $nome);
             $stmt->bindValue(":email", $email);
@@ -54,14 +53,14 @@ include("../Senai-Livre/config/cabecalho.php");
     </div>
     <?php
         //conectar com o banco de dados
-        include("config/conexao.php");
+        include("../conexao.php");
 
         //formulário foi enviado?
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             $email = $_POST["email"];
             $senha = $_POST["senha"];
 
-            $sql = "SELECT * FROM usuarios   WHERE email = :email and senha = :senha";
+            $sql = "SELECT * FROM usuario   WHERE email = :email and senha = :senha";
             $stmt = $conexao->prepare($sql);
         
             $stmt->bindValue(":email", $email);
@@ -71,7 +70,7 @@ include("../Senai-Livre/config/cabecalho.php");
             $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
             if($result){
-               header("Location: config/TelaListagem.php");
+               header("Location: telalistagem.php");
             }
             else {
                 echo"<div class = 'error'>falha em logar o usuário</div>";

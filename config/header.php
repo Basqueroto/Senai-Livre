@@ -7,7 +7,7 @@
         <nav>
             <a href="">Vender</a>
             <a href="">Contato</a>
-            <a href="../Senai-Livre/cadastro.php" target="_blank">Entrar/Cadastrar</a>
+            <a href="../Senai-Livre/usuario/cadastro.php" target="_blank">Entrar/Cadastrar</a>
         </nav>
         <i class="fa-solid fa-bars"></i>
     </div>
