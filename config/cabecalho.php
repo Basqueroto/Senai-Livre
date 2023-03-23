@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/mobile.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/mobile.css">
     <title>Senai Livre</title>
 </head>
 <body>
