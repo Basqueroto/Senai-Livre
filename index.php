@@ -6,12 +6,11 @@
 
 <h2>Ofertas do dia</h2>
 
-<section id="of" >
+<section id="of">
+    
 
     <div id="ofimg">
     <div class="ofertas" id="tr">
-        <div>
-        <a href="produto.php?id=1">
         <img src="../Senai-Livre/assets/img/fritadeira.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$670,00</p>
@@ -23,7 +22,7 @@
     </div>
     <a href="produto.php?id=2">
     <div id="tr">
-        <img src="../Senai-Livre/assets/img/camera.png" alt="">
+        <img class="one" src="../Senai-Livre/assets/img/camera.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$300,00</p>
         <p class="juros">10x R$30,00 sem juros</p>
@@ -33,7 +32,7 @@
     </a>
     <a href="produto.php?id=3">
     <div id="tr">
-        <img src="../Senai-Livre/assets/img/laptop.png" alt="">
+        <img class="one" src="../Senai-Livre/assets/img/laptop.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$1900,00</p>
         <p class="juros">10x R$190,00 sem juros</p>
@@ -43,7 +42,7 @@
     </a>
     <a href="produto.php?id=4">
     <div id="tr">
-        <img src="../Senai-Livre/assets/img/cadeiraGamer.png" alt="">
+        <img class="one" src="../Senai-Livre/assets/img/cadeiraGamer.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$1600,00</p>
         <p class="juros">10x R$160,00 sem juros</p>
@@ -53,7 +52,7 @@
     </a>
     <a href="produto.php?id=5">
     <div id="tr">
-        <img src="../Senai-Livre/assets/img/meias.png" alt="">
+        <img class="one" src="../Senai-Livre/assets/img/meias.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$70,00</p>
         <p class="juros">10x R$7,00 sem juros</p>
@@ -72,37 +71,38 @@
 
     <div id="conimg">
 
-    <div id="sexo">
+    <div>
 
-    <div>
+    <ul id="coisa">
+        <li>
         <img src="../Senai-Livre/assets/img/descTVs.png" alt="">
-        <p>TV's</p>
-    </div>
-    <div>
+        <p>TV's</p> 
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descModas.png" alt="">
         <p>Moda</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descDomenticos.png" alt="">
-        <p>Casa e decoreações</p>
-    </div>
-    <div>
+        <p>Casa e decoreações</p> 
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descCelulares.png" alt="">
         <p>Smartphones</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descBeleza.png" alt="">
         <p>Beleza</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descFerramentas.png" alt="">
         <p>Ferramentas</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descEletronico.png" alt="">
         <p>Gaymes</p>
-    </div>
-
+        </li>
+    </ul>
     </div>
 
     </div>

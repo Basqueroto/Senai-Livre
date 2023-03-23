@@ -1,5 +1,5 @@
 <?php
-include("../config/header.php");
+include("../config/cabecalho.php");
 ?>
 <div id="cad">
         <nav id="cad-nav">

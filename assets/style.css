@@ -156,9 +156,14 @@ html {
    
 }
 
-#sexo{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+#conimg{
+  
+  overflow: auto;
+}
+#coisa{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  list-style: none;
 }
 
 .tr{
@@ -255,7 +260,7 @@ footer p {
     padding-top: 25px;
 }
 
-#sexo{
+#coisa{
     padding-bottom: 25px;
 }
 
@@ -536,6 +541,7 @@ h1{
 }
 
 
+
 #probrema {
   display: flex;
   align-items: center;
@@ -603,136 +609,6 @@ h1{
 }
 
 .mais {
-  margin-top: 5px;
+  margin-top: 20px;
+>>>>>>> 68a9ac3ee4f7e435d4ecb7fbc0fb8390421f64f0
 }
-
-.other-text {
-  background-color: var(--cor-hover);
-  width: 90px;
-  text-align: center;
-  border-radius: 2px;
-  margin-left: 30px;
-}
-
-.other-text p{
-  color: var(--color-white);
-  font-size: 13px;
-}
-
-#info-preco{
-  margin-left: 30px;
-  margin-top: 3px;
-  font-size: 30px;      
-}
-
-.cupons {
-  margin-left: 15px;
-  margin-top: 10px;
-  text-align: left;;
-  width: 230px;
-}
-
-.fund{
-  background-color: var(--cor-fundo-cup);
-  color: var(--cor-ofertas);
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.no-fund{
-  color: var(--cor-ofertas);
-  font-size: 15px;
-  width: 280px;
-  margin-top: 5px;
-}
-
-.cop {
-  margin-top: 10px;
-  margin-left: 15px;
-  width: 100px;
-  height: 20px;
-  display: flex;
-  justify-content: left;
-}
-
-.abertura {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  margin-left: 50px;
-  width: 150px;
-  background-color: var(--cor-fundo-cup);
-  color: var(--cor-ofertas);
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.frete {
-  margin-top: 15px;
-  margin-left: 15px;
-  display: flex;
-}
-
-.frete p {
-  margin-right: 5px;
-}
-
-.but p{
-  margin-left: 15px;
-  font-size: 15px;
-}
-
-.but {
-  margin-top: 12px;
-}
-
-.but-but {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.compr{
-  margin-top: 15px;
-  width: 250px;
-  height: 30px;
-  background-color: var(--cor-botão);
-  border: none;
-  border-radius: 5px;
-  color: var(--color-white);
-  font-size: 16px; 
-}
-
-.car {
-  margin-top: 5px;
-  width: 250px;
-  height: 30px;
-  background-color: rgba(65,137,230,.15);
-  color: var(--cor-botão);
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.compr:hover{
-  cursor: pointer;
-  border-radius: 3px;
-background: #3483fa;
-box-shadow: inset 5px 5px 9px #2762bc,
-            inset -5px -5px 9px #41a4ff;
-}
-
-.car:hover {
-  border-radius: 3px;
-background: #c3d9fe;
-box-shadow: inset 3px 3px 5px #bdd2f6,
-            inset -3px -3px 5px #c9e0ff;
-}
-
-#img-fig img {
-  width: 400px;
-}
-
-
-

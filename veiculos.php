@@ -16,6 +16,7 @@ include("config/header.php")
 <p class="produtos">Produtos</p>
 
     <section id="tec">
+        
 
         <div class="tr">
             <img class="imti" src="../Senai-Livre/assets/novasimg/porshe-removebg-preview.png" alt=""> 
@@ -48,7 +49,7 @@ include("config/header.php")
         <div class="destaques">
             <div class="tr" id="probrema" >
                 <div>
-                    <img class="imgt" src="../Senai-Livre/assets/novasimg/Bumblebee-removebg-preview.htm" width="300" height="100"  alt="">
+                    <img class="imgt" src="../Senai-Livre/assets/novasimg/kisspng-2018-chevrolet-camaro-2017-chevrolet-camaro-car-20-tumb-5b33a402851cc0.3042453615301109785452.png" width="300" height="200"  alt="">
                     <p id="razer" >Camaro amarelo</p>
                     <p>R$500.000,00</p>
                 </div>
