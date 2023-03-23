@@ -152,9 +152,14 @@ html {
    
 }
 
-#sexo{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+#conimg{
+  
+  overflow: auto;
+}
+#coisa{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  list-style: none;
 }
 
 #tr{
@@ -251,7 +256,7 @@ footer p {
     padding-top: 25px;
 }
 
-#sexo{
+#coisa{
     padding-bottom: 25px;
 }
 
@@ -532,6 +537,7 @@ h1{
 }
 
 
+
 #probrema {
   display: flex;
   align-items: center;
@@ -544,8 +550,6 @@ h1{
 
 #ofimg img, #marcos img{
   width: 100%;
-<<<<<<< HEAD
-=======
 }
 /* ------------------------produtos------------------- */
 
@@ -602,5 +606,4 @@ h1{
 
 .mais {
   margin-top: 20px;
->>>>>>> 68a9ac3ee4f7e435d4ecb7fbc0fb8390421f64f0
 }

@@ -6,7 +6,8 @@
 
 <h2>Ofertas do dia</h2>
 
-<section id="of" >
+<section id="of">
+    
 
     <div id="ofimg">
     <a href="produto.php?id=1">
@@ -70,37 +71,38 @@
 
     <div id="conimg">
 
-    <div id="sexo">
+    <div>
 
-    <div>
+    <ul id="coisa">
+        <li>
         <img src="../Senai-Livre/assets/img/descTVs.png" alt="">
-        <p>TV's</p>
-    </div>
-    <div>
+        <p>TV's</p> 
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descModas.png" alt="">
         <p>Moda</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descDomenticos.png" alt="">
-        <p>Casa e decoreações</p>
-    </div>
-    <div>
+        <p>Casa e decoreações</p> 
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descCelulares.png" alt="">
         <p>Smartphones</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descBeleza.png" alt="">
         <p>Beleza</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descFerramentas.png" alt="">
         <p>Ferramentas</p>
-    </div>
-    <div>
+        </li>
+        <li>
         <img src="../Senai-Livre/assets/img/descEletronico.png" alt="">
         <p>Gaymes</p>
-    </div>
-
+        </li>
+    </ul>
     </div>
 
     </div>
