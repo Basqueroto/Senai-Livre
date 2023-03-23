@@ -9,19 +9,19 @@
 <section id="of">
     
 
-    <div id="ofimg">
-    <div class="ofertas" id="tr">
+<div id="ofimg">
+    <a href="produto.php?id=2">
+    <div class="tr">
         <img src="../Senai-Livre/assets/img/fritadeira.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$670,00</p>
         <p class="juros">10x R$67,00 sem juros</p>
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
         <p class="nome">Fritadeira de ar</p>
-        </a>
-        </div>
     </div>
+    </a>
     <a href="produto.php?id=2">
-    <div id="tr">
+    <div class="tr">
         <img class="one" src="../Senai-Livre/assets/img/camera.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$300,00</p>
@@ -31,7 +31,7 @@
     </div>
     </a>
     <a href="produto.php?id=3">
-    <div id="tr">
+    <div class="tr">
         <img class="one" src="../Senai-Livre/assets/img/laptop.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$1900,00</p>
@@ -41,7 +41,7 @@
     </div>
     </a>
     <a href="produto.php?id=4">
-    <div id="tr">
+    <div class="tr">
         <img class="one" src="../Senai-Livre/assets/img/cadeiraGamer.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$1600,00</p>
@@ -51,7 +51,7 @@
     </div>
     </a>
     <a href="produto.php?id=5">
-    <div id="tr">
+    <div class="tr">
         <img class="one" src="../Senai-Livre/assets/img/meias.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$70,00</p>
@@ -60,7 +60,7 @@
         <p class="nome">Meias</p>
     </div>
     </a>
-    </div>
+</div>
 </section>
 
 <section id="con">
@@ -114,7 +114,7 @@
 
 <div id="marcos">
 <a href="produto.php?id=6">
-<div id="tr">
+<div class="tr">
     <img src="../Senai-Livre/assets/img/ofFerramentas.png" alt="">
     <p class="oferta-dia">ofertas do dia</p>
     <p class="preco">R$670,00</p>
@@ -124,7 +124,7 @@
 </div>
 </a>
 <a href="produto.php?id=7">
-<div id="tr">
+<div class="tr">
     <img src="../Senai-Livre/assets/img/ofTvs.png" alt="">
     <p class="oferta-dia">ofertas do dia</p>
     <p class="preco">R$300,00</p>
@@ -134,7 +134,7 @@
 </div>
 </a>
 <a href="produto.php?id=8">
-<div id="tr">
+<div class="tr">
     <img src="../Senai-Livre/assets/img/ofCelulares.png" alt="">
     <p class="oferta-dia">ofertas do dia</p>
     <p class="preco">R$1900,00</p>
@@ -144,7 +144,7 @@
 </div>
 </a>
 <a href="produto.php?id=9">
-<div id="tr">
+<div class="tr">
     <img src="../Senai-Livre/assets/img/ofTvs2.png" alt="">
     <p class="oferta-dia">ofertas do dia</p>
     <p class="preco">R$1600,00</p>
@@ -154,7 +154,7 @@
 </div>
 </a>
 <a href="produto.php?id=10">
-<div id="tr">
+<div  class="tr">
     <img src="../Senai-Livre/assets/img/ofCalcas.png" alt="">
     <p class="oferta-dia">ofertas do dia</p>
     <p class="preco">R$70,00</p>

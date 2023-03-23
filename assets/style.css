@@ -150,10 +150,9 @@ html {
     color: #383838;
 }
 
-#of #ofimg{
+#ofimg{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   
 }
 
 #conimg{
@@ -168,8 +167,7 @@ html {
 
 .tr{
     border: 1px solid black;
-    margin: 30px;
-    padding: 20px;
+    gap: 30px;
     border-radius: 20px;
     
 }
