@@ -1,13 +1,13 @@
 <header class="header">
     <div class="first">
-    <figure><img src="senai.png" alt="Logo senai Livre"></figure>
+    <figure><a href="index.php" target="_blank"><img src="senai.png" alt="Logo senai Livre"></a></figure>
         <div id="divBusca">
             <input type="text" id="txtBusca" placeholder="Pesquise aqui"/>
         </div>
         <nav>
-            <a href="">Vender</a>
-            <a href="">Contato</a>
-            <a href="../Senai-Livre/usuario/cadastro.php" target="_blank">Entrar/Cadastrar</a>
+            <a class="head" href="">Vender</a>
+            <a class="head" href="">Contato</a>
+            <a class="head" href="../Senai-Livre/usuario/cadastro.php" target="_blank">Entrar/Cadastrar</a>
         </nav>
         <i class="fa-solid fa-bars"></i>
     </div>

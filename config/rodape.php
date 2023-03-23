@@ -27,5 +27,6 @@
 
     </footer>
     <script src="https://kit.fontawesome.com/099d701c5d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/07031450bd.js" crossorigin="anonymous"></script>
 </body>
 </html>

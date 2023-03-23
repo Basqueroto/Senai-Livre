@@ -20,10 +20,37 @@
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
-                    <div id="info-preco">
 
-                    <p class="mais">Mais vendido</p>
+					<div class="other-text">
+						<p class="mais">Mais vendido</p>
+					</div>
+
+                    <div id="info-preco">
                     </div>
+					<div class="cupons">
+						<p class="fund">10% OFF com Mercado Crédito</p>
+						<p class="no-fund">Ver meios de pagamento e promoções</p>
+					</div>
+					<div class="cop">
+						<i class="fa-regular fa-ticket" style="color: #8fb7f9;"></i>
+						<p>Cupons</p>
+					</div>
+					<div class="abertura">
+						<p>10% off Inauguração</p>
+					</div>
+					<div class="frete">	
+					<i class="fa-regular fa-truck-fast" style="color: #2ca469;"></i>
+						<p>Frete grátis</p>
+						<i class="fa-solid fa-bolt" style="color: #2ca469;"></i>
+						<p>FULL</p>
+					</div>
+					<div class="but">	
+						<p>Estoque disponível</p>
+						<div class="but-but">
+							<button class="compr">Comprar agora</button>
+							<button class="car">adicionar ao carrinho</button>
+						</div>
+					</div>
                 </div>
             </div>
         </div>

@@ -9,16 +9,18 @@
 <section id="of" >
 
     <div id="ofimg">
-    <a href="produto.php?id=1">
     <div class="ofertas" id="tr">
+        <div>
+        <a href="produto.php?id=1">
         <img src="../Senai-Livre/assets/img/fritadeira.png" alt="">
         <p class="oferta-dia">ofertas do dia</p>
         <p class="preco">R$670,00</p>
         <p class="juros">10x R$67,00 sem juros</p>
         <p class="frete">frete gratis <i class="fa-solid fa-bolt"></i> FULL</p>
         <p class="nome">Fritadeira de ar</p>
+        </a>
+        </div>
     </div>
-    </a>
     <a href="produto.php?id=2">
     <div id="tr">
         <img src="../Senai-Livre/assets/img/camera.png" alt="">
